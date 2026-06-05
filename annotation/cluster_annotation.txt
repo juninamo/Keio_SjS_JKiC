@@ -1,0 +1,57 @@
+cell	cluster	clu_name	clu_name_old
+ALL	0	Myeloid1	
+ALL	1	CD8T	
+ALL	2	CD4T	
+ALL	3	plasma1	
+ALL	4	plasma2	
+ALL	5	plasma3	
+ALL	6	B1	
+ALL	7	other leukocytes	
+ALL	8	tissue1	
+ALL	9	plasma4	
+ALL	10	Myeloid2	
+ALL	11	Fibroblast	
+ALL	12	plasma5	
+ALL	13	plasma6	
+ALL	14	tissue2	
+ALL	15	B2	
+ALL	16	tissue3	
+SG	0		
+SG	1		
+SG	2		
+SG	3		
+SG	4		
+SG	5		
+SG	6		
+SG	7		
+T	0	GZMB+K+A+H+CD8	GZMB+GZMK+ CD8
+T	1	CMCD4 (CCR7+)	CMCD4(CCR7+)
+T	2	GZMB+A+H+CD8	GZMB+CD8
+T	3	DN	GZMKlowCD4
+T	4	GZMK+A+CD8	GZMK+PDCD1+CD8
+T	5	Th1	Th1
+T	6	Treg	Treg
+T	7	Tph/Tfh	Tph/Tfh
+T	8	GZMH+A+CD8	GZMA+CD8
+T	9	CX3CR1+CD8	GZMB+CX3CR1+CD8
+B/plasma	0	plasma1	
+B/plasma	1	plasma2	
+B/plasma	2	plasma3	
+B/plasma	3	plasma4	
+B/plasma	4	B	
+other	0		CL Mono
+other	1		LDG(CFLAR+)
+other	2		CD1c+ DC
+other	3		NC Mono
+other	4		NK
+other	5		CLEC7A CL Mono
+other	6		CL Mono + mixed
+ALL_cellranger	0		plasma
+ALL_cellranger	1		Tissue1
+ALL_cellranger	2		T
+ALL_cellranger	3		Tissue2
+ALL_cellranger	4		Tissue3
+ALL_cellranger	5		Myeloid/NK
+ALL_cellranger	6		B
+ALL_cellranger	7		Tissue4
+ALL_cellranger	8		Tissue5
