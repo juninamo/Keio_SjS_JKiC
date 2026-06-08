@@ -53,27 +53,11 @@ FASTQ  ->  Cell Ranger (count)  ->  CellBender (remove-background)
   per-sample distribution (**fig. S1**), and the reporter-assay / Ro60-reactive clonotypes on
   the T-cell UMAP (**Fig. 6A**).
 
----
-
-## 🧰 Requirements
-
-- R ≥ 4.3 with: `Seurat` (v5), `harmony`, `scCustomize`, `scRepertoire`, `tidyverse`,
-  `magrittr`, `ggrepel`, `patchwork`, `pheatmap`, `ggpubr`, `ggsci`, `immunarch`,
-  `ggVennDiagram`.
-- Jupyter with the [IRkernel](https://irkernel.github.io/) to run the notebooks.
-
-To re-run: place `utils.R` and `annotation/cluster_annotation.txt` in the working
-directory, set `dir` to the project root that holds `data/` and `output/`, then execute the
-notebooks top to bottom.
-
-> Note: the notebooks do **not** write any `.rds`/`.csv` result files; all figures are
-> rendered inline so existing analysis outputs are never overwritten.
 
 ---
 
 ## 📧 Contact
 
-- Corresponding author: **Masaru Takeshita** — takeshita.a5@keio.jp
 - Code / analysis: **Jun Inamo** — juninamo@keio.jp
 
 Department of Microbiology and Immunology / Division of Rheumatology,
